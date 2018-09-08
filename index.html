@@ -25,6 +25,14 @@
    <input type="text" name="output">
    </form>
     
+    <form onSubmit="return false;">
+  What's 5 plus 9? 
+   <input type="text" name="input">
+   <input type="button" value="Enter" 
+       onclick="this.form.output.value='No, it is not '+this.form.input.value;">
+   <input type="text" name="output">
+   </form>
+    
    </body>
   
   </html>
